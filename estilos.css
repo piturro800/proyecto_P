@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Roboto+Slab:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+:root {
+    /* Colors */
+    --primary: #1b00ce;
+    --secondary: #9900ff;
+    --alternative: #0800e6;
+    --text-color: #ffffff;
+
+    /* Spacings */
+    --spacing-large: 6rem;
+    --spacing-medium: 2.4rem;
+    --spacing-small: 2rem;
+    --spacing-xsmall: 1rem;
+
+    /* Font-family */
+    --font-principal: 'Barlow', sans-serif;
+    --font-title: 'Amatic SC', cursive;
+
+    /* Font-Sizes */
+    --text-large: 5.2em;
+    --text-medium: 3.2em;
+    --text-base: 1.6em;
+    --text-small: 1.4em;
+}
+
+
+/* Normalize */
+
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #000000;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font-title);
+    color: var(--text-color);
+}
+
+img {
+    width: 100%;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__img {
+    max-width: 120px ;
+}
+
+.navegacion {
+    display: flex;
+    gap: var(--spacing-small);
+}
+
+.nav__link {
+    font-size: var(--text-medium);
+    padding: var(--spacing-xsmall) 1.2rem;
+    border: 2px solid var(--primary);
+    transition: all 1s;
+}
+
+.nav__link:hover {
+    border-color: var(--text-color);
+}
+/*main*/
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: var(--spacing-small);
+}
+
+.principal{
+    display: flex;
+    gap: var(--spacing-xsmall);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xsmall);
+    
+}
+
+.nombre{
+    font-family: var(--font-title);
+    font-size: var(--text-medium);
+    color: var(--primary);
+}
+
+.subtitulo{
+    margin-top: 0.6rem;
+    color: var(--secondary);
+    font-size: var(--text-small);
+}
+
+.texto_prin{
+    margin-top: 1rem;
+    font-size: var(--text-medium);
+    color: var(--text-color);
+}
+
+.imagen{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: line;
+    padding: var(--spacing-large);
+    gap: 1rem;
+    width: 600px;
+
+}
