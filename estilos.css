@@ -33,11 +33,7 @@
 *::after,
 *::before,
 * {
-<<<<<<< HEAD
     margin: 1;
-=======
-    margin: 0;
->>>>>>> origin/master
     padding: 0;
     box-sizing: border-box;
 }
@@ -59,10 +55,7 @@ a {
     text-decoration: none;
     font-family: var(--font-title);
     color: var(--text-color);
-<<<<<<< HEAD
     font-size: 80%;
-=======
->>>>>>> origin/master
 }
 
 img {
@@ -83,11 +76,7 @@ header {
 
 .navegacion {
     display: flex;
-<<<<<<< HEAD
     gap: var(--spacing-xsmall);
-=======
-    gap: var(--spacing-small);
->>>>>>> origin/master
 }
 
 .nav__link {
@@ -121,7 +110,6 @@ header {
     gap: var(--spacing-xsmall);
     
 }
-<<<<<<< HEAD
 .contenedor_flex{
     display:flex
 }
@@ -131,9 +119,6 @@ a img {
     border: 5px;
     padding: 5px 5px;
 }
-=======
-
->>>>>>> origin/master
 .nombre{
     font-family: var(--font-title);
     font-size: var(--text-medium);
@@ -144,10 +129,7 @@ a img {
     margin-top: 0.6rem;
     color: var(--secondary);
     font-size: var(--text-small);
-<<<<<<< HEAD
     padding: 5px;
-=======
->>>>>>> origin/master
 }
 
 .texto_prin{
@@ -160,15 +142,7 @@ a img {
     flex: 1 1 50%;
     display: flex;
     flex-direction: line;
-<<<<<<< HEAD
     padding: var(--spacing-medium);
     gap: 1rem;
     width: 600px;
-   
-=======
-    padding: var(--spacing-large);
-    gap: 1rem;
-    width: 600px;
-
->>>>>>> origin/master
 }
